@@ -1,0 +1,31 @@
+name: Build
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Restore
+        run: msbuild OpenInCodeBuddy.sln /t:Restore /p:Configuration=Release /p:DeployExtension=false /v:m
+
+      - name: Build
+        run: msbuild OpenInCodeBuddy.sln /p:Configuration=Release /p:DeployExtension=false /v:m
+
+      - name: Upload VSIX
+        uses: actions/upload-artifact@v4
+        with:
+          name: vsix
+          path: |
+            src/bin/Release/*.vsix
+          if-no-files-found: error
