@@ -9,21 +9,23 @@
         <Buttons>
             <Button guid="guidOpenInCodeBuddyCmdSet" id="OpenInCodeBuddy" priority="0x0500" type="Button">
                 <Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_FOLDER_EXPLORE" />
-                <Icon guid="ImageCatalogGuid" id="VisualStudioOnline" />
-                <CommandFlag>IconIsMoniker</CommandFlag>
+                <Icon guid="guidImages" id="bmpCodeBuddy" />
                 <Strings>
                     <ButtonText>Open in Code&amp;Buddy</ButtonText>
                 </Strings>
             </Button>
             <Button guid="guidOpenCurrentInCodeBuddyCmdSet" id="OpenCurrentInCodeBuddy" priority="0x0500" type="Button">
                 <Parent guid="guidSHLMainMenu" id="IDG_VS_MM_FILEEDITVIEW" />
-                <Icon guid="ImageCatalogGuid" id="VisualStudioOnline" />
-                <CommandFlag>IconIsMoniker</CommandFlag>
+                <Icon guid="guidImages" id="bmpCodeBuddy" />
                 <Strings>
                     <ButtonText>Open in Code&amp;Buddy</ButtonText>
                 </Strings>
             </Button>
         </Buttons>
+
+        <Bitmaps>
+            <Bitmap guid="guidImages" href="Resources\Icon16.png" usedList="bmpCodeBuddy" />
+        </Bitmaps>
     </Commands>
 
     <CommandPlacements>
@@ -51,6 +53,10 @@
         </GuidSymbol>
         <GuidSymbol name="guidOpenCurrentInCodeBuddyCmdSet" value="{7c05a8bb-7b98-46ee-a0d3-e56d5eeffc4f}">
             <IDSymbol name="OpenCurrentInCodeBuddy" value="0x0101" />
+        </GuidSymbol>
+
+        <GuidSymbol name="guidImages" value="{1b1bbc42-6d7c-4a71-bf82-d385f5e4abd8}">
+            <IDSymbol name="bmpCodeBuddy" value="1" />
         </GuidSymbol>
     </Symbols>
 </CommandTable>

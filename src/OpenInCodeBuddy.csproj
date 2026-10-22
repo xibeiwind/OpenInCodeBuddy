@@ -110,6 +110,8 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <!-- Embedded into Menus.ctmenu by the VSCT compiler (referenced from VSCommands.vsct) -->
+    <Content Include="Resources\Icon16.png" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.SDK" Version="15.0.1" ExcludeAssets="runtime" />

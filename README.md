@@ -51,3 +51,7 @@ in Visual Studio to debug in the experimental instance.
 ## License
 
 [MIT](LICENSE)
+
+The extension icon is derived from the CodeBuddy logo shipped with the CodeBuddy installation
+(`resources\app\resources\tray.png`) and remains the trademark of its owner. Replace it before
+publishing this extension on any public marketplace.
