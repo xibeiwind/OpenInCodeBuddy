@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="aac12048-312f-48e1-ac55-da58add45433" Version="1.1" Language="en-US" Publisher="xibeiwind" />
         <DisplayName>Open in CodeBuddy</DisplayName>
-        <Description xml:space="preserve">Adds a menu command that lets you open any solution, project, folder and file in CodeBuddy.</Description>
+        <Description xml:space="preserve">在 Visual Studio 中一键用 CodeBuddy 打开解决方案、项目、文件夹或文件。</Description>
         <MoreInfo>https://github.com/xibeiwind/OpenInCodeBuddy/</MoreInfo>
         <License>Resources\LICENSE</License>
         <Icon>Resources\Icon.png</Icon>

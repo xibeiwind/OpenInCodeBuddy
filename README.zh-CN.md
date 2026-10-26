@@ -4,7 +4,7 @@
 
 一个 Visual Studio 扩展：添加菜单命令，让你在 **CodeBuddy**（含 CodeBuddy CN）中打开任意解决方案、项目、文件夹或文件。
 
-本项目移植自 Mads Kristensen 的 [OpenInVsCode](https://github.com/madskristensen/OpenInVsCode)，目标应用改为 CodeBuddy。
+本项目参考 Mads Kristensen 的 [OpenInVsCode](https://github.com/madskristensen/OpenInVsCode)，目标应用改为 CodeBuddy。
 
 ## 功能
 

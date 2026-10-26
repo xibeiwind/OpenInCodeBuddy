@@ -9,7 +9,7 @@ namespace OpenInCodeBuddy
     {
         public const string Id = "aac12048-312f-48e1-ac55-da58add45433";
         public const string Name = "Open in CodeBuddy";
-        public const string Description = @"Adds a menu command that lets you open any solution, project, folder and file in CodeBuddy.";
+        public const string Description = @"在 Visual Studio 中一键用 CodeBuddy 打开解决方案、项目、文件夹或文件。";
         public const string Language = "en-US";
         public const string Version = "1.1";
         public const string Author = "xibeiwind";
