@@ -49,6 +49,9 @@ No console window is shown and Visual Studio is never blocked.
 
 ## Notes
 
+- This is an independent community extension. It is not affiliated with, or endorsed by, the CodeBuddy
+  product or its vendor; the icon is derived from the CodeBuddy logo only to indicate which application
+  the command opens.
 - All Visual Studio instances must be closed while installing or updating the extension.
 - Failures are logged to the *Open in CodeBuddy* pane of the Output window instead of interrupting you
   with dialogs.

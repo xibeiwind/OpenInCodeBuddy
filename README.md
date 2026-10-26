@@ -73,5 +73,6 @@ in Visual Studio to debug in the experimental instance.
 [MIT](LICENSE)
 
 The extension icon is derived from the CodeBuddy logo shipped with the CodeBuddy installation
-(`resources\app\resources\tray.png`) and remains the trademark of its owner. Replace it before
-publishing this extension on any public marketplace.
+(`resources\app\resources\tray.png`). It is used deliberately so that the menu item is recognizable as
+"open this in CodeBuddy". CodeBuddy and its logo are trademarks of their respective owner; this extension
+is an independent community project and is not affiliated with, or endorsed by, that owner.
