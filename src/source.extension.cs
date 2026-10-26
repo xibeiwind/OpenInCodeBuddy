@@ -12,7 +12,7 @@ namespace OpenInCodeBuddy
         public const string Description = @"Adds a menu command that lets you open any solution, project, folder and file in CodeBuddy.";
         public const string Language = "en-US";
         public const string Version = "1.1";
-        public const string Author = "OpenInCodeBuddy";
+        public const string Author = "xibeiwind";
         public const string Tags = "codebuddy, buddycn, code, editor, productivity";
     }
 }

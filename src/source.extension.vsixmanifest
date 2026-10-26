@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="aac12048-312f-48e1-ac55-da58add45433" Version="1.1" Language="en-US" Publisher="OpenInCodeBuddy" />
+        <Identity Id="aac12048-312f-48e1-ac55-da58add45433" Version="1.1" Language="en-US" Publisher="xibeiwind" />
         <DisplayName>Open in CodeBuddy</DisplayName>
         <Description xml:space="preserve">Adds a menu command that lets you open any solution, project, folder and file in CodeBuddy.</Description>
+        <MoreInfo>https://github.com/xibeiwind/OpenInCodeBuddy/</MoreInfo>
         <License>Resources\LICENSE</License>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
