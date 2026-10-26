@@ -1,5 +1,7 @@
 # Open in CodeBuddy
 
+English | [简体中文](README.zh-CN.md)
+
 A Visual Studio extension that adds a menu command letting you open any solution, project, folder or file in **CodeBuddy** (including CodeBuddy CN).
 
 It is a port of [OpenInVsCode](https://github.com/madskristensen/OpenInVsCode) by Mads Kristensen, retargeted to CodeBuddy.
