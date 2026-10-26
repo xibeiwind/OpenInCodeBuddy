@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "publisher": "REPLACE_WITH_YOUR_PUBLISHER_ID",
+  "identity": {
+    "internalName": "OpenInCodeBuddy",
+    "tags": [
+      "codebuddy",
+      "buddycn",
+      "code",
+      "editor",
+      "productivity"
+    ]
+  },
+  "categories": [
+    "coding",
+    "other"
+  ],
+  "overview": "overview.md",
+  "priceCategory": "free",
+  "private": false,
+  "qna": true,
+  "repo": "REPLACE_WITH_YOUR_REPO_URL"
+}

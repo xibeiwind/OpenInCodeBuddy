@@ -48,6 +48,26 @@ msbuild OpenInCodeBuddy.sln /t:Restore;Build /p:Configuration=Release /p:DeployE
 The resulting VSIX lands in `src/bin/Release/OpenInCodeBuddy.vsix` — double-click to install, or press `F5`
 in Visual Studio to debug in the experimental instance.
 
+## Publishing to the Marketplace
+
+1. Create a publisher at <https://marketplace.visualstudio.com/manage/publishers> and note its **publisher ID**.
+2. Set that ID in `src/source.extension.vsixmanifest` (`Identity Publisher`) and in
+   [`publish/vs-publish.json`](publish/vs-publish.json) (replace `REPLACE_WITH_YOUR_PUBLISHER_ID`, and
+   `REPLACE_WITH_YOUR_REPO_URL` with your repository URL).
+3. Create an Azure DevOps Personal Access Token with organization *All accessible organizations* and scope
+   **Marketplace → Manage**.
+4. Bump the version in three places (`vsixmanifest`, `source.extension.cs`, `AssemblyInfo.cs`), rebuild, then run:
+
+```cmd
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VSSDK\VisualStudioIntegration\Tools\Bin\VsixPublisher.exe" publish ^
+  -payload "src\bin\Release\OpenInCodeBuddy.vsix" ^
+  -publishManifest "publish\vs-publish.json" ^
+  -personalAccessToken "%MARKETPLACE_PAT%"
+```
+
+5. Confirm the listing on the marketplace management page — a command-line upload is not necessarily public
+   until you publish it there.
+
 ## License
 
 [MIT](LICENSE)

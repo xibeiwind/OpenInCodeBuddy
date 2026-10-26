@@ -11,8 +11,8 @@ namespace OpenInCodeBuddy
         public const string Name = "Open in CodeBuddy";
         public const string Description = @"Adds a menu command that lets you open any solution, project, folder and file in CodeBuddy.";
         public const string Language = "en-US";
-        public const string Version = "1.0";
+        public const string Version = "1.1";
         public const string Author = "OpenInCodeBuddy";
-        public const string Tags = "codebuddy, buddycn";
+        public const string Tags = "codebuddy, buddycn, code, editor, productivity";
     }
 }
